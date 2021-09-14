@@ -11,8 +11,14 @@ class Api
 
     protected static $isProdEnv = true;
 
-    protected static $prodUri = "";
-    protected static $testUri = "";
+    protected static $prodUri = " https://secure.payu.in/";
+    protected static $testUri = "https://sandbox.payu.com/";
+
+    protected static $apiUri = "https://sandbox.payu.com/";
+
+    protected static $notifyUrl;
+
+    protected $request = new Http;
 
     public function __construct(string $key, string  $secret)
     {
