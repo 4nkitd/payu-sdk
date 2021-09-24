@@ -1,0 +1,2 @@
+find repo name  
+   git config --get remote.origin.url
