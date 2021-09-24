@@ -1,2 +1,3 @@
-find repo name  
-   git config --get remote.origin.url
+find repo name/url 
+       git config --get remote.origin.url
+git merge branch name 
